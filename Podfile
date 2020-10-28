@@ -11,8 +11,10 @@ target 'instagram' do
 
   # This pulls in the latest version of Alamofire >= 4.4 but less than 5.0.
 
-  pod 'Alamofire', '~> 4.4'
+  # pod 'Alamofire', '~> 4.4'
   pod 'AlamofireImage'
+  pod "MessageInputBar"
+
   # Add additional dependencies
 
   target 'instagramTests' do
